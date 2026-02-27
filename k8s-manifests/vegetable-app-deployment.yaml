@@ -4,7 +4,7 @@ metadata:
   name: vegetable-deployment
   namespace: venkatesh-ns
 spec:
-  replicas: 3
+  replicas: 6
   selector:
     matchLabels:
       app: vegetableapp
